@@ -46,7 +46,7 @@ export default function Dashboard({ user, onLogout }: Props) {
         user={user}
         onLogout={onLogout}
         usedGB={2.4}
-        totalGB={15}
+        totalGB={100}
       />
 
       {/* Main content */}

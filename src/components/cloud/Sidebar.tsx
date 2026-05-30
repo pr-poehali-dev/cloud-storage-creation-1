@@ -41,7 +41,7 @@ export default function Sidebar({ active, onNav, user, onLogout, usedGB, totalGB
         <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
           <Icon name="Cloud" size={15} className="text-white" />
         </div>
-        <span className="font-semibold text-base text-foreground tracking-tight">Облако</span>
+        <span className="font-semibold text-base text-foreground tracking-tight">TPV Облако</span>
       </div>
 
       {/* Upload button */}

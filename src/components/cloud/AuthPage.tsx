@@ -44,7 +44,7 @@ export default function AuthPage({ onAuth }: Props) {
           <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center shadow-sm">
             <Icon name="Cloud" size={18} className="text-white" />
           </div>
-          <span className="text-xl font-semibold tracking-tight text-foreground">Облако</span>
+          <span className="text-xl font-semibold tracking-tight text-foreground">TPV Облако</span>
         </div>
 
         {/* Card */}
