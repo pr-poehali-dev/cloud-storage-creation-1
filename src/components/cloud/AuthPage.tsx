@@ -40,11 +40,16 @@ export default function AuthPage({ onAuth }: Props) {
     <div className="min-h-screen bg-[#f8f9fc] flex items-center justify-center p-4">
       <div className="w-full max-w-[420px] animate-slide-up">
         {/* Logo */}
-        <div className="flex items-center gap-2.5 mb-10 justify-center">
-          <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center shadow-sm">
-            <Icon name="Cloud" size={18} className="text-white" />
+        <div className="flex flex-col items-center gap-3 mb-10">
+          <img
+            src="https://cdn.poehali.dev/projects/187c5bcb-93f4-4c67-9f51-b20c259b9815/bucket/9773d817-05d0-4e9c-9481-bbad289cb82e.jpg"
+            alt="TPV RUS"
+            className="h-16 w-16 rounded-2xl object-cover shadow-md"
+          />
+          <div className="text-center">
+            <span className="text-xl font-bold tracking-tight text-foreground block">TPV Облако</span>
+            <span className="text-xs text-muted-foreground">Личное облачное хранилище</span>
           </div>
-          <span className="text-xl font-semibold tracking-tight text-foreground">TPV Облако</span>
         </div>
 
         {/* Card */}

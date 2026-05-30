@@ -37,11 +37,16 @@ export default function Sidebar({ active, onNav, user, onLogout, usedGB, totalGB
   return (
     <aside className="w-60 shrink-0 flex flex-col h-screen bg-white border-r border-border">
       {/* Logo */}
-      <div className="px-5 py-5 flex items-center gap-2.5 border-b border-border">
-        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-          <Icon name="Cloud" size={15} className="text-white" />
+      <div className="px-5 py-4 flex items-center gap-3 border-b border-border">
+        <img
+          src="https://cdn.poehali.dev/projects/187c5bcb-93f4-4c67-9f51-b20c259b9815/bucket/9773d817-05d0-4e9c-9481-bbad289cb82e.jpg"
+          alt="TPV RUS"
+          className="h-8 w-8 rounded-lg object-cover shrink-0"
+        />
+        <div className="leading-tight">
+          <span className="font-bold text-sm text-foreground tracking-tight block">TPV Облако</span>
+          <span className="text-xs text-muted-foreground">RUS</span>
         </div>
-        <span className="font-semibold text-base text-foreground tracking-tight">TPV Облако</span>
       </div>
 
       {/* Upload button */}
